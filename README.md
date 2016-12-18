@@ -5,6 +5,8 @@ Initial heavy lifting was done over at [jsoncdc](https://github.com/posix4e/json
 
 ### Testing it out
 
+[![Join the chat at https://gitter.im/durch/rpg_base36](https://badges.gitter.im/durch/rpg_base36.svg)](https://gitter.im/durch/rpg_base36?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 + Build and start the image:
 
 ```bash
