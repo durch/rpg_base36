@@ -1,4 +1,4 @@
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/durch/rpg_base36/blob/master/LICENSE.md)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/durch/rpg_base36/blob/master/LICENCE.md)
 
 Toy extension demonstrating PostgreSQL extensions in Rust, implements base36_encode as found [here](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i).
 Initial heavy lifting was done over at [jsoncdc](https://github.com/posix4e/jsoncdc), from which boilerplate code was liberaly ~~stolen~~ borrowed :).
