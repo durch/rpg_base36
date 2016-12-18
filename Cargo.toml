@@ -1,0 +1,17 @@
+[package]
+name = "rpg_base36"
+version = "0.1.0"
+authors = ["Drazen Urch <github@drazenur.ch>"]
+build = "build.rs"
+
+
+[lib]
+name = "rpg_base36"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "*"
+rpgffi = "0.2"
+
+[build-dependencies]
+gcc = "*"

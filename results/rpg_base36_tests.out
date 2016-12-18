@@ -1,0 +1,37 @@
+CREATE EXTENSION rpg_base36;
+SELECT base36_encode(0);
+ base36_encode 
+---------------
+ 0
+(1 row)
+
+SELECT base36_encode(1);
+ base36_encode 
+---------------
+ 1
+(1 row)
+
+SELECT base36_encode(10);
+ base36_encode 
+---------------
+ A
+(1 row)
+
+SELECT base36_encode(35);
+ base36_encode 
+---------------
+ Z
+(1 row)
+
+SELECT base36_encode(36);
+ base36_encode 
+---------------
+ 10
+(1 row)
+
+SELECT base36_encode(123456789);
+ base36_encode 
+---------------
+ 21I3V9
+(1 row)
+

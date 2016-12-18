@@ -1,0 +1,5 @@
+# base36 extension in rust
+comment = 'base36_encode in rust'
+default_version = '0.0.1'
+module_pathname = '$libdir/rpg_base36'
+relocatable = true
