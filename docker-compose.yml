@@ -3,7 +3,7 @@ version: "2"
 services:
   rpg_base36:
     build: .
-    ports:
+#    ports:
 #      - "5432:5432" # must do different echo in Dockerfile for this to work
     volumes:
       - .:/tmp/code
