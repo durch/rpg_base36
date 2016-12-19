@@ -4,7 +4,7 @@ services:
   rpg_base36:
     build: .
     ports:
-      - "5432:5432"
+#      - "5432:5432" # must do different echo in Dockerfile for this to work
     volumes:
       - .:/tmp/code
     tty: true
